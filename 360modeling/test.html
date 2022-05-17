@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>360모델링 연습 페이지</title>
+  <link rel="stylesheet" href="./css/style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/@mladenilic/threesixty.js/dist/threesixty.js"></script>
+  
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="rel_aroundview _img_viewer_wrap">
+      <div class="view_box">
+        <div class="img_area">
+          <div id="threesixty" class="img_wrap slideInRight _3d_image">
+            <img class="img" src="./img/360img/0.png" alt="360도 이미지 0">
+            <img class="img" src="./img/360img/1.png" alt="360도 이미지 1">
+            <img class="img" src="./img/360img/2.png" alt="360도 이미지 2">
+            <img class="img" src="./img/360img/3.png" alt="360도 이미지 3">
+            <img class="img" src="./img/360img/4.png" alt="360도 이미지 4">
+            <img class="img" src="./img/360img/5.png" alt="360도 이미지 5">
+            <img class="img" src="./img/360img/6.png" alt="360도 이미지 6">
+            <img class="img" src="./img/360img/7.png" alt="360도 이미지 7">
+            <img class="img" src="./img/360img/8.png" alt="360도 이미지 8">
+            <img class="img" src="./img/360img/9.png" alt="360도 이미지 9">
+            <img class="img" src="./img/360img/10.png" alt="360도 이미지 10">
+            <img class="img" src="./img/360img/11.png" alt="360도 이미지 11">
+            <img class="img" src="./img/360img/12.png" alt="360도 이미지 12">
+            <img class="img" src="./img/360img/13.png" alt="360도 이미지 13">
+            <img class="img" src="./img/360img/14.png" alt="360도 이미지 14">
+            <img class="img" src="./img/360img/15.png" alt="360도 이미지 15">
+            <img class="img" src="./img/360img/16.png" alt="360도 이미지 16">
+            <img class="img" src="./img/360img/17.png" alt="360도 이미지 17">
+            <img class="img" src="./img/360img/18.png" alt="360도 이미지 18">
+            <img class="img" src="./img/360img/19.png" alt="360도 이미지 19">
+            <img class="img" src="./img/360img/20.png" alt="360도 이미지 20">
+            <img class="img" src="./img/360img/21.png" alt="360도 이미지 21">
+            <img class="img" src="./img/360img/22.png" alt="360도 이미지 22">
+            <img class="img" src="./img/360img/23.png" alt="360도 이미지 23">
+            <img class="img" src="./img/360img/24.png" alt="360도 이미지 24">
+            <img class="img" src="./img/360img/25.png" alt="360도 이미지 25">
+            <img class="img" src="./img/360img/26.png" alt="360도 이미지 26">
+            <img class="img" src="./img/360img/27.png" alt="360도 이미지 27">
+            <img class="img" src="./img/360img/28.png" alt="360도 이미지 28">
+            <img class="img" src="./img/360img/29.png" alt="360도 이미지 29">
+            <img class="img" src="./img/360img/30.png" alt="360도 이미지 30">
+            <img class="img" src="./img/360img/31.png" alt="360도 이미지 31">
+            <img class="img" src="./img/360img/32.png" alt="360도 이미지 32">
+            <img class="img" src="./img/360img/33.png" alt="360도 이미지 33">
+            <img class="img" src="./img/360img/34.png" alt="360도 이미지 34">
+            <img class="img" src="./img/360img/35.png" alt="360도 이미지 35">
+          </div>
+          <div class="view_bg"></div>
+        </div>
+        <div class="click_img_area"></div>
+        <div class="btn_area">
+          <a nocr onclick="return false" href="javascript:;" class="btn_color"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    
+    const threesixty = new ThreeSixty(document.getElementById("threesixty"), {
+      image: [
+        './img/360img/0.png',
+        './img/360img/1.png',
+        './img/360img/2.png',
+        './img/360img/3.png',
+        './img/360img/4.png',
+        './img/360img/5.png',
+        './img/360img/6.png',
+        './img/360img/7.png',
+        './img/360img/8.png',
+        './img/360img/9.png',
+        './img/360img/10.png',
+        './img/360img/11.png',
+        './img/360img/12.png',
+        './img/360img/13.png',
+        './img/360img/14.png',
+        './img/360img/15.png',
+        './img/360img/16.png',
+        './img/360img/17.png',
+        './img/360img/18.png',
+        './img/360img/19.png',
+        './img/360img/20.png',
+        './img/360img/21.png',
+        './img/360img/22.png',
+        './img/360img/23.png',
+        './img/360img/24.png',
+        './img/360img/25.png',
+        './img/360img/26.png',
+        './img/360img/27.png',
+        './img/360img/28.png',
+        './img/360img/29.png',
+        './img/360img/30.png',
+        './img/360img/31.png',
+        './img/360img/32.png',
+        './img/360img/33.png',
+        './img/360img/34.png',
+        './img/360img/35.png',
+      ],
+      count : 36,
+      width: 600,
+      height: 300,
+      dragTolerance: 40,
+      prev: document.getElementById("prev"),
+      next: document.getElementById("next"),
+      speed: 1000
+    });
+
+    threesixty.stop();
+  </script>
+</body>
+
+</html>
